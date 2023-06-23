@@ -13,7 +13,7 @@
     - 商品件数
 
 ## 二、流程设计
-
+![](./README.MD-image/流程图设计.png)
 
 ## 三、方案实现 
 这是一个 vue3.x + typescript 的项目，组合式 API 风格，在这个案例中商品数据是使用 mockjs 拦截请求并生成随机数据返回的<br />
@@ -21,10 +21,10 @@
 - axios
 - mockjs
 - element-plus
-- ant-design
+- ant-design 
 1. 工程目录
-<br />
-![](./README.MD-image/工程结构.png)
+
+   ![](./README.MD-image/工程结构.png)
 2. 效果展示
 ![](./README.MD-image/商品界面.png)
 ![](./README.MD-image/购物车.png)
