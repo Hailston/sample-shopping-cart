@@ -1,5 +1,13 @@
-import { createApp } from 'vue'
-import './style.css'
+import {createApp} from 'vue'
 import App from './App.vue'
+// import {ElMessage} from "element-plus";
 
-createApp(App).mount('#app')
+import 'element-plus/dist/index.css'
+import './assets/global.css'
+import './mock/goods.ts'
+// @ts-ignore
+const app = createApp(App)
+
+// app.component('ElMessage',
+//     ElMessage)
+app.mount('#app')

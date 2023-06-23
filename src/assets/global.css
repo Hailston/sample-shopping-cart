@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.el-menu--horizontal>.el-menu-item.is-active {
+    color: var(--el-menu-text-color) !important;
+    border-bottom: none !important;
+}
